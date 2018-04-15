@@ -8,27 +8,14 @@
 		,url("../fonts/fonts/metror.woff") format("woff"),url("../fonts/fonts/metror.ttf") format("truetype"),url("../fonts/fonts/metror.svg") format("svg");font-weight:normal;font-style:normal;
 }
 
-@font-face {
-	font-family:"Bariol";
-	src:url("../fonts/fonts/Bariol_Light.otf") format("otf");
-	font-weight:normal;
-	font-style:normal;
-}
-p{
-	font-family: "Bariol";
-}
 
 
-.bariol{
-	font-family: "Bariol";
-}
 
 .logo{
 	width: 230px;
 	margin-top: -13px;
 }
 body, html{
-	font-family: 'Bariol';
 	letter-spacing: 2px;
 	text-rendering: optimizeLegibility !important;
 	-webkit-font-smoothing: antialiased !important;
@@ -67,9 +54,7 @@ h5{
 	font-weight: 700;
 	line-height: 20px;
 }
-p{
-	font-family: "Bariol";
-}
+
 p.intro{
 	font-size: 16px;
 	margin: 12px 0 0;
@@ -289,7 +274,6 @@ ul.about-list li{
 	display: block;
 	font-size: 16px;
 	line-height: 30px;
-	font-family: 'Bariol';
 }
 ul.about-list li span{ 
 	margin-right: 10px;
@@ -602,7 +586,6 @@ label {
 	float: left;
 	font-size: 12px;
 	font-weight: 400;
-	font-family: 'Open Sans', sans-serif;
 }
 #tf-contact .form-control {
 	display: block;
