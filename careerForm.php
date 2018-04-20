@@ -2,15 +2,7 @@
 
 	$message = " Hi! <br> ";
 	$message = $message . "Name : " . $_POST["name"]. "<br>";
-	$message = $message . "Phone : " . $_POST["phone"] . "<br>";
-	$message = $message . "Place Of Birth : " . $_POST["placeOf"] . "<br>";
 	$message = $message . "Email : " . $_POST["email"] . "<br>";
-	$message = $message . "Date Of Birth : " . $_POST["dob"] . "<br>";
-	$message = $message . "Marital Status : " . $_POST["status"] . "<br>";
-	$message = $message . "Address : " . $_POST["address"] . "<br>";
-	$message = $message . "Last Degree : " . $_POST["lastDegree"] . "<br>";
-	$message = $message . "Message : " . $_POST["message"] . "<br>";
-	$message = $message . "Last Job : " . $_POST["lastJob"] . "<br>";
 	$message = $message . "<br> Thankyou!";
 
 
@@ -49,10 +41,10 @@ $mail->SMTPSecure = 'tls';
 $mail->SMTPAuth = true;
 
 //Username to use for SMTP authentication - use full email address for gmail
-$mail->Username = "email here";
+$mail->Username = "lim.weehoo@gmail.com";
 
 //Password to use for SMTP authentication
-$mail->Password = "password here";
+$mail->Password = "helloworld123";
 
 //Set who the message is to be sent from
 $mail->setFrom('iconnectelnetworks.com', 'ALI');
